@@ -11,6 +11,7 @@ A comprehensive RESTful API for movie metadata management built with Django REST
 - [Authentication](#-authentication)
 - [API Endpoints](#-api-endpoints)
 - [Response Formats](#-response-formats)
+- [Flutter Front-End Repository](#-flutter-front-end-repository)
 - [Integration with Flutter](#-integration-with-flutter)
 - [Development](#-development)
 - [Deployment](#-deployment)
@@ -195,42 +196,26 @@ API responses follow consistent JSON formatting:
 }
 ```
 
-## 🔄 Integration with Flutter
+## 🔗 Flutter Front-End Repository
 
-This backend API is designed to work with a Flutter mobile application. To connect your Flutter app:
+This Django backend is paired with a Flutter front-end application. The complete movie application consists of:
 
-1. Use packages like `http` or `dio` to make API requests
-2. Implement JWT token storage using `flutter_secure_storage`
-3. Create model classes that match the API response structure
-4. Use state management solutions (Provider, Bloc, etc.) to handle API data
+- **Backend**: This Django REST API repository
+- **Frontend**: Flutter mobile application
 
-Example Flutter API service:
-```dart
-class MovieApiService {
-  final String baseUrl = 'https://your-api-domain.com/api';
-  final storage = FlutterSecureStorage();
-  
-  Future<List<Movie>> getMovies() async {
-    final token = await storage.read(key: 'auth_token');
-    final response = await http.get(
-      Uri.parse('$baseUrl/films/'),
-      headers: {
-        'Authorization': 'Token $token',
-        'Content-Type': 'application/json',
-      },
-    );
-    
-    if (response.statusCode == 200) {
-      final List<dynamic> data = json.decode(response.body)['data'];
-      return data.map((json) => Movie.fromJson(json)).toList();
-    } else {
-      throw Exception('Failed to load movies');
-    }
-  }
-  
-  // Additional API methods...
-}
-```
+### Flutter Repository
+
+You can find the Flutter front-end code at:
+
+[Movie App Flutter Repository](https://github.com/barenbaruna/flutter_movie)
+
+### Complete Application Setup
+
+To run the complete application with both frontend and backend:
+
+1. Set up this backend repository following the installation steps above
+2. Clone and set up the Flutter repository following its README instructions
+3. Configure the Flutter app to connect to your running backend server
 
 ## 👨‍💻 Development
 
