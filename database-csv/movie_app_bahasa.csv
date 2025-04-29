@@ -1,0 +1,610 @@
+id,bahasa
+1,Abkhazian
+2,Achinese
+3,Acoli
+4,Adangme
+5,Adyghe
+6,Afar
+7,Afrihili
+8,Afrikaans
+9,Aghem
+10,Ainu
+11,Akan
+12,Akkadian
+13,Akoose
+14,Alabama
+15,Albanian
+16,Aleut
+17,Algerian Arabic
+18,American English
+19,American Sign Language
+20,Amharic
+21,Ancient Egyptian
+22,Ancient Greek
+23,Angika
+24,Ao Naga
+25,Arabic
+26,Aragonese
+27,Aramaic
+28,Araona
+29,Arapaho
+30,Arawak
+31,Armenian
+32,Aromanian
+33,Arpitan
+34,Assamese
+35,Asturian
+36,Asu
+37,Atsam
+38,Australian English
+39,Austrian German
+40,Avaric
+41,Avestan
+42,Awadhi
+43,Aymara
+44,Azerbaijani
+45,Badaga
+46,Bafia
+47,Bafut
+48,Bakhtiari
+49,Balinese
+50,Baluchi
+51,Bambara
+52,Bamun
+53,Banjar
+54,Basaa
+55,Bashkir
+56,Basque
+57,Batak Toba
+58,Bavarian
+59,Beja
+60,Belarusian
+61,Bemba
+62,Bena
+63,Bengali
+64,Betawi
+65,Bhojpuri
+66,Bikol
+67,Bini
+68,Bishnupriya
+69,Bislama
+70,Blin
+71,Blissymbols
+72,Bodo
+73,Bosnian
+74,Brahui
+75,Braj
+76,Brazilian Portuguese
+77,Breton
+78,British English
+79,Buginese
+80,Bulgarian
+81,Bulu
+82,Buriat
+83,Burmese
+84,Caddo
+85,Cajun French
+86,Canadian English
+87,Canadian French
+88,Cantonese
+89,Capiznon
+90,Carib
+91,Catalan
+92,Cayuga
+93,Cebuano
+94,Central Atlas Tamazight
+95,Central Dusun
+96,Central Kurdish
+97,Central Yupik
+98,Chadian Arabic
+99,Chagatai
+100,Chamorro
+101,Chechen
+102,Cherokee
+103,Cheyenne
+104,Chibcha
+105,Chiga
+106,Chimborazo Highland Quichua
+107,Chinese
+108,Chinook Jargon
+109,Chipewyan
+110,Choctaw
+111,Church Slavic
+112,Chuukese
+113,Chuvash
+114,Classical Newari
+115,Classical Syriac
+116,Colognian
+117,Comorian
+118,Congo Swahili
+119,Coptic
+120,Cornish
+121,Corsican
+122,Cree
+123,Creek
+124,Crimean Turkish
+125,Croatian
+126,Czech
+127,Dakota
+128,Danish
+129,Dargwa
+130,Dazaga
+131,Delaware
+132,Dinka
+133,Divehi
+134,Dogri
+135,Dogrib
+136,Duala
+137,Dutch
+138,Dyula
+139,Dzongkha
+140,Eastern Frisian
+141,Efik
+142,Egyptian Arabic
+143,Ekajuk
+144,Elamite
+145,Embu
+146,Emilian
+147,English
+148,Erzya
+149,Esperanto
+150,Estonian
+151,European Portuguese
+152,European Spanish
+153,Ewe
+154,Ewondo
+155,Extremaduran
+156,Fang
+157,Fanti
+158,Faroese
+159,Fiji Hindi
+160,Fijian
+161,Filipino
+162,Finnish
+163,Flemish
+164,Fon
+165,Frafra
+166,French
+167,Friulian
+168,Fulah
+169,Ga
+170,Gagauz
+171,Galician
+172,Gan Chinese
+173,Ganda
+174,Gayo
+175,Gbaya
+176,Geez
+177,Georgian
+178,German
+179,Gheg Albanian
+180,Ghomala
+181,Gilaki
+182,Gilbertese
+183,Goan Konkani
+184,Gondi
+185,Gorontalo
+186,Gothic
+187,Grebo
+188,Greek
+189,Guarani
+190,Gujarati
+191,Gusii
+192,Gwichʼin
+193,Haida
+194,Haitian
+195,Hakka Chinese
+196,Hausa
+197,Hawaiian
+198,Hebrew
+199,Herero
+200,Hiligaynon
+201,Hindi
+202,Hiri Motu
+203,Hittite
+204,Hmong
+205,Hungarian
+206,Hupa
+207,Iban
+208,Ibibio
+209,Icelandic
+210,Ido
+211,Igbo
+212,Iloko
+213,Inari Sami
+214,Indonesian
+215,Ingrian
+216,Ingush
+217,Interlingua
+218,Interlingue
+219,Inuktitut
+220,Inupiaq
+221,Irish
+222,Italian
+223,Jamaican Creole English
+224,Japanese
+225,Javanese
+226,Jju
+227,Jola-Fonyi
+228,Judeo-Arabic
+229,Judeo-Persian
+230,Jutish
+231,Kabardian
+232,Kabuverdianu
+233,Kabyle
+234,Kachin
+235,Kaingang
+236,Kako
+237,Kalaallisut
+238,Kalenjin
+239,Kalmyk
+240,Kamba
+241,Kanembu
+242,Kannada
+243,Kanuri
+244,Kara-Kalpak
+245,Karachay-Balkar
+246,Karelian
+247,Kashmiri
+248,Kashubian
+249,Kawi
+250,Kazakh
+251,Kenyang
+252,Khasi
+253,Khmer
+254,Khotanese
+255,Khowar
+256,Kikuyu
+257,Kimbundu
+258,Kinaray-a
+259,Kinyarwanda
+260,Kirmanjki
+261,Klingon
+262,Kom
+263,Komi
+264,Komi-Permyak
+265,Kongo
+266,Konkani
+267,Korean
+268,Koro
+269,Kosraean
+270,Kotava
+271,Koyra Chiini
+272,Koyraboro Senni
+273,Kpelle
+274,Krio
+275,Kuanyama
+276,Kumyk
+277,Kurdish
+278,Kurukh
+279,Kutenai
+280,Kwasio
+281,Kyrgyz
+282,Kʼicheʼ
+283,Ladino
+284,Lahnda
+285,Lakota
+286,Lamba
+287,Langi
+288,Lao
+289,Latgalian
+290,Latin
+291,Latin American Spanish
+292,Latvian
+293,Laz
+294,Lezghian
+295,Ligurian
+296,Limburgish
+297,Lingala
+298,Lingua Franca Nova
+299,Literary Chinese
+300,Lithuanian
+301,Livonian
+302,Lojban
+303,Lombard
+304,Low German
+305,Lower Silesian
+306,Lower Sorbian
+307,Lozi
+308,Luba-Katanga
+309,Luba-Lulua
+310,Luiseno
+311,Lule Sami
+312,Lunda
+313,Luo
+314,Luxembourgish
+315,Luyia
+316,Maba
+317,Macedonian
+318,Machame
+319,Madurese
+320,Mafa
+321,Magahi
+322,Main-Franconian
+323,Maithili
+324,Makasar
+325,Makhuwa-Meetto
+326,Makonde
+327,Malagasy
+328,Malay
+329,Malayalam
+330,Maltese
+331,Manchu
+332,Mandar
+333,Mandingo
+334,Manipuri
+335,Manx
+336,Maori
+337,Mapuche
+338,Marathi
+339,Mari
+340,Marshallese
+341,Marwari
+342,Masai
+343,Mazanderani
+344,Medumba
+345,Mende
+346,Mentawai
+347,Meru
+348,Metaʼ
+349,Mexican Spanish
+350,Micmac
+351,Middle Dutch
+352,Middle English
+353,Middle French
+354,Middle High German
+355,Middle Irish
+356,Min Nan Chinese
+357,Minangkabau
+358,Mingrelian
+359,Mirandese
+360,Mizo
+361,Modern Standard Arabic
+362,Mohawk
+363,Moksha
+364,Moldavian
+365,Mongo
+366,Mongolian
+367,Morisyen
+368,Moroccan Arabic
+369,Mossi
+370,Multiple Languages
+371,Mundang
+372,Muslim Tat
+373,Myene
+374,Nama
+375,Nauru
+376,Navajo
+377,Ndonga
+378,Neapolitan
+379,Nepali
+380,Newari
+381,Ngambay
+382,Ngiemboon
+383,Ngomba
+384,Nheengatu
+385,Nias
+386,Niuean
+387,No linguistic content
+388,Nogai
+389,North Ndebele
+390,Northern Frisian
+391,Northern Sami
+392,Northern Sotho
+393,Norwegian
+394,Norwegian Bokmål
+395,Norwegian Nynorsk
+396,Novial
+397,Nuer
+398,Nyamwezi
+399,Nyanja
+400,Nyankole
+401,Nyasa Tonga
+402,Nyoro
+403,Nzima
+404,NʼKo
+405,Occitan
+406,Ojibwa
+407,Old English
+408,Old French
+409,Old High German
+410,Old Irish
+411,Old Norse
+412,Old Persian
+413,Old Provençal
+414,Oriya
+415,Oromo
+416,Osage
+417,Ossetic
+418,Ottoman Turkish
+419,Pahlavi
+420,Palatine German
+421,Palauan
+422,Pali
+423,Pampanga
+424,Pangasinan
+425,Papiamento
+426,Pashto
+427,Pennsylvania German
+428,Persian
+429,Phoenician
+430,Picard
+431,Piedmontese
+432,Plautdietsch
+433,Pohnpeian
+434,Polish
+435,Pontic
+436,Portuguese
+437,Prussian
+438,Punjabi
+439,Quechua
+440,Rajasthani
+441,Rapanui
+442,Rarotongan
+443,Riffian
+444,Romagnol
+445,Romanian
+446,Romansh
+447,Romany
+448,Rombo
+449,Root
+450,Rotuman
+451,Roviana
+452,Rundi
+453,Russian
+454,Rusyn
+455,Rwa
+456,Saho
+457,Sakha
+458,Samaritan Aramaic
+459,Samburu
+460,Samoan
+461,Samogitian
+462,Sandawe
+463,Sango
+464,Sangu
+465,Sanskrit
+466,Santali
+467,Sardinian
+468,Sasak
+469,Sassarese Sardinian
+470,Saterland Frisian
+471,Saurashtra
+472,Scots
+473,Scottish Gaelic
+474,Selayar
+475,Selkup
+476,Sena
+477,Seneca
+478,Serbian
+479,Serbo-Croatian
+480,Serer
+481,Seri
+482,Shambala
+483,Shan
+484,Shona
+485,Sichuan Yi
+486,Sicilian
+487,Sidamo
+488,Siksika
+489,Silesian
+490,Simplified Chinese
+491,Sindhi
+492,Sinhala
+493,Skolt Sami
+494,Slave
+495,Slovak
+496,Slovenian
+497,Soga
+498,Sogdien
+499,Somali
+500,Soninke
+501,South Azerbaijani
+502,South Ndebele
+503,Southern Altai
+504,Southern Sami
+505,Southern Sotho
+506,Spanish
+507,Sranan Tongo
+508,Standard Moroccan Tamazight
+509,Sukuma
+510,Sumerian
+511,Sundanese
+512,Susu
+513,Swahili
+514,Swati
+515,Swedish
+516,Swiss French
+517,Swiss German
+518,Swiss High German
+519,Syriac
+520,Tachelhit
+521,Tagalog
+522,Tahitian
+523,Taita
+524,Tajik
+525,Talysh
+526,Tamashek
+527,Tamil
+528,Taroko
+529,Tasawaq
+530,Tatar
+531,Telugu
+532,Tereno
+533,Teso
+534,Tetum
+535,Thai
+536,Tibetan
+537,Tigre
+538,Tigrinya
+539,Timne
+540,Tiv
+541,Tlingit
+542,Tok Pisin
+543,Tokelau
+544,Tongan
+545,Tornedalen Finnish
+546,Traditional Chinese
+547,Tsakhur
+548,Tsakonian
+549,Tsimshian
+550,Tsonga
+551,Tswana
+552,Tulu
+553,Tumbuka
+554,Tunisian Arabic
+555,Turkish
+556,Turkmen
+557,Turoyo
+558,Tuvalu
+559,Tuvinian
+560,Twi
+561,Tyap
+562,Udmurt
+563,Ugaritic
+564,Ukrainian
+565,Umbundu
+566,Unknown Language
+567,Upper Sorbian
+568,Urdu
+569,Uyghur
+570,Uzbek
+571,Vai
+572,Venda
+573,Venetian
+574,Veps
+575,Vietnamese
+576,Volapük
+577,Võro
+578,Votic
+579,Vunjo
+580,Walloon
+581,Walser
+582,Waray
+583,Warlpiri
+584,Washo
+585,Wayuu
+586,Welsh
+587,West Flemish
+588,Western Frisian
+589,Western Mari
+590,Wolaytta
+591,Wolof
+592,Wu Chinese
+593,Xhosa
+594,Xiang Chinese
+595,Yangben
+596,Yao
+597,Yapese
+598,Yemba
+599,Yiddish
+600,Yoruba
+601,Zapotec
+602,Zarma
+603,Zaza
+604,Zeelandic
+605,Zenaga
+606,Zhuang
+607,Zoroastrian Dari
+608,Zulu
+609,Zuni
