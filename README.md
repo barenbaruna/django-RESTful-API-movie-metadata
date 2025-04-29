@@ -223,46 +223,6 @@ To run the complete application with both frontend and backend:
 2. Clone and set up the Flutter repository following its README instructions
 3. Configure the Flutter app to connect to your running backend server
 
-## 🔄 Integration with Flutter
-
-The integration between this Django backend and the Flutter frontend provides a seamless movie browsing and rating experience:
-
-1. **Authentication Flow**: 
-   - The Flutter app uses the login/register endpoints to authenticate users
-   - Authentication tokens are securely stored on the mobile device
-   - Different UI elements are displayed based on user role (author/visitor)
-
-2. **Data Flow**:
-   - The Flutter app fetches and displays movie data, actors, directors, etc.
-   - Authors can create and manage movie content through the app
-   - Users can browse movies, view details, and submit ratings
-
-3. **Real-time Experience**:
-   - Rating changes are immediately reflected in average ratings
-   - New content becomes available across all app instances
-
-Example Flutter-Django integration code for authentication:
-
-```dart
-Future<bool> login(String username, String password) async {
-  final response = await http.post(
-    Uri.parse('$apiBaseUrl/api/login/'),
-    headers: {'Content-Type': 'application/json'},
-    body: jsonEncode({
-      'username': username,
-      'password': password,
-    }),
-  );
-  
-  if (response.statusCode == 200) {
-    final data = jsonDecode(response.body);
-    await secureStorage.write(key: 'auth_token', value: data['token']);
-    return true;
-  }
-  return false;
-}
-```
-
 ## 👨‍💻 Development
 
 ### Running Tests
