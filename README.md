@@ -11,6 +11,7 @@ A comprehensive RESTful API for movie metadata management built with Django REST
 - [Authentication](#-authentication)
 - [API Endpoints](#-api-endpoints)
 - [Response Formats](#-response-formats)
+- [Flutter Front-End Repository](#-flutter-front-end-repository)
 - [Integration with Flutter](#-integration-with-flutter)
 - [Development](#-development)
 - [Deployment](#-deployment)
@@ -201,40 +202,64 @@ API responses follow consistent JSON formatting:
 }
 ```
 
+## 🔗 Flutter Front-End Repository
+
+This Django backend is paired with a Flutter front-end application. The complete movie application consists of:
+
+- **Backend**: This Django REST API repository
+- **Frontend**: Flutter mobile application
+
+### Flutter Repository
+
+You can find the Flutter front-end code at:
+
+[Movie App Flutter Repository](https://github.com/barenbaruna/flutter_movie)
+
+### Complete Application Setup
+
+To run the complete application with both frontend and backend:
+
+1. Set up this backend repository following the installation steps above
+2. Clone and set up the Flutter repository following its README instructions
+3. Configure the Flutter app to connect to your running backend server
+
 ## 🔄 Integration with Flutter
 
-This backend API is designed to work with a Flutter mobile application. To connect your Flutter app:
+The integration between this Django backend and the Flutter frontend provides a seamless movie browsing and rating experience:
 
-1. Use packages like `http` or `dio` to make API requests
-2. Implement JWT token storage using `flutter_secure_storage`
-3. Create model classes that match the API response structure
-4. Use state management solutions (Provider, Bloc, etc.) to handle API data
+1. **Authentication Flow**: 
+   - The Flutter app uses the login/register endpoints to authenticate users
+   - Authentication tokens are securely stored on the mobile device
+   - Different UI elements are displayed based on user role (author/visitor)
 
-Example Flutter API service:
+2. **Data Flow**:
+   - The Flutter app fetches and displays movie data, actors, directors, etc.
+   - Authors can create and manage movie content through the app
+   - Users can browse movies, view details, and submit ratings
+
+3. **Real-time Experience**:
+   - Rating changes are immediately reflected in average ratings
+   - New content becomes available across all app instances
+
+Example Flutter-Django integration code for authentication:
+
 ```dart
-class MovieApiService {
-  final String baseUrl = 'https://your-api-domain.com/api';
-  final storage = FlutterSecureStorage();
+Future<bool> login(String username, String password) async {
+  final response = await http.post(
+    Uri.parse('$apiBaseUrl/api/login/'),
+    headers: {'Content-Type': 'application/json'},
+    body: jsonEncode({
+      'username': username,
+      'password': password,
+    }),
+  );
   
-  Future<List<Movie>> getMovies() async {
-    final token = await storage.read(key: 'auth_token');
-    final response = await http.get(
-      Uri.parse('$baseUrl/films/'),
-      headers: {
-        'Authorization': 'Token $token',
-        'Content-Type': 'application/json',
-      },
-    );
-    
-    if (response.statusCode == 200) {
-      final List<dynamic> data = json.decode(response.body)['data'];
-      return data.map((json) => Movie.fromJson(json)).toList();
-    } else {
-      throw Exception('Failed to load movies');
-    }
+  if (response.statusCode == 200) {
+    final data = jsonDecode(response.body);
+    await secureStorage.write(key: 'auth_token', value: data['token']);
+    return true;
   }
-  
-  // Additional API methods...
+  return false;
 }
 ```
 
