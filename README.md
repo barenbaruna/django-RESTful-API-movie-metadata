@@ -33,14 +33,14 @@ A comprehensive RESTful API for movie metadata management built with Django REST
 - Django 4.2.1
 - Django REST Framework 3.14.0
 - Pillow 9.5.0 (for image processing)
-- Other dependencies listed in `req.txt`
+- Other dependencies listed in `requirements.txt`
 
 ## 🔧 Installation
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd movie-fix
+   git clone django-RESTful-API-movie-metadata
+   cd django-RESTful-API-movie-metadata
    ```
 
 2. Create and activate a virtual environment:
@@ -51,27 +51,21 @@ A comprehensive RESTful API for movie metadata management built with Django REST
 
 3. Install dependencies:
    ```bash
-   pip install -r req.txt
+   pip install -r requirements.txt
    ```
 
-4. Configure environment variables (create a `.env` file if needed):
-   ```
-   DEBUG=True
-   SECRET_KEY=your_secret_key
-   DATABASE_URL=sqlite:///db.sqlite3
-   ```
-
-5. Run migrations:
+4. Run migrations:
    ```bash
    python manage.py migrate
    ```
 
-6. Create a superuser for admin access:
+5. Existing superuser account. Username:`admin` Password:`admin123`.
+   Or create a superuser for admin access:
    ```bash
    python manage.py createsuperuser
    ```
 
-7. Start the development server:
+6. Start the development server:
    ```bash
    python manage.py runserver
    ```
@@ -97,7 +91,7 @@ movie-fix/
 ├── media/                  # User-uploaded files
 ├── static/                 # Static files
 ├── manage.py               # Django management script
-├── req.txt                 # Dependencies
+├── requirements.txt        # Dependencies
 └── README.md               # Project documentation
 ```
 
@@ -275,6 +269,7 @@ black .
 
 3. Deploy using gunicorn and nginx:
    ```bash
+   pip install gunicorn
    gunicorn movie_project.wsgi:application
    ```
 
@@ -287,12 +282,6 @@ A Dockerfile is provided for containerized deployment.
 - **API Authentication Errors**: Check that you're using the correct token format
 - **Serialization Errors**: Ensure your request body matches the required fields
 - **Permission Denied**: Verify user roles (author vs visitor) for restricted endpoints
-
-### Logging
-Check the server logs for detailed error information:
-```bash
-tail -f logs/django.log
-```
 
 ## 👥 Contributing
 
