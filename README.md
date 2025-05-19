@@ -11,6 +11,7 @@ A comprehensive RESTful API for movie metadata management built with Django REST
 - [Authentication](#-authentication)
 - [API Endpoints](#-api-endpoints)
 - [Response Formats](#-response-formats)
+- [Screenshots](#-screenshots)
 - [Flutter Front-End Repository](#-flutter-front-end-repository)
 - [Integration with Flutter](#-integration-with-flutter)
 - [Development](#-development)
@@ -195,6 +196,30 @@ API responses follow consistent JSON formatting:
   "poster": "http://example.com/media/posters/inception.jpg"
 }
 ```
+
+## 📸 Screenshots
+
+### API Testing with Insomnia
+
+Below are screenshots demonstrating API testing using Insomnia:
+
+#### Film API
+![Film API Testing with Insomnia](./screenshoot/film_api.png)
+*Testing the Film endpoints to retrieve movie data*
+
+#### Login API
+![Login API Testing with Insomnia](./screenshoot/login_api.png)
+*Authentication process using the login endpoint*
+
+#### Register API
+![Register API Testing with Insomnia](./screenshoot/register_api.png)
+*User registration flow through the API*
+
+### Django Admin Interface
+
+#### Django Superuser Dashboard
+![Django Admin Interface](./screenshoot/django_superuser.png)
+*The Django admin interface for managing application data*
 
 ## 🔗 Flutter Front-End Repository
 
